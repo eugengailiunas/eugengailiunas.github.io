@@ -1,0 +1,71 @@
+body {
+  position: relative;
+
+  background-color: grey;
+}
+
+.circle-first {
+  -webkit-transition: 0.5s ease;
+       -o-transition: 0.5s ease;
+          transition: 0.5s ease;
+}
+
+.circle-first:hover {
+  cursor: pointer;
+  -webkit-transition: 0.5s ease;
+       -o-transition: 0.5s ease;
+          transition: 0.5s ease;
+
+  fill: red;
+}
+
+.rect {
+  -webkit-transition: 0.7s ease;
+       -o-transition: 0.7s ease;
+          transition: 0.7s ease;
+}
+
+.rect:hover {
+  cursor: pointer;
+  -webkit-transition: 0.7s ease;
+       -o-transition: 0.7s ease;
+          transition: 0.7s ease;
+
+  fill: black;
+}
+
+.rect-second {
+  -webkit-transition: 0.7s ease;
+       -o-transition: 0.7s ease;
+          transition: 0.7s ease;
+}
+
+.rect-second:hover {
+  cursor: pointer;
+  -webkit-transition: 0.7s ease;
+       -o-transition: 0.7s ease;
+          transition: 0.7s ease;
+
+  fill: black;
+}
+
+.circle-second {
+  fill: pink;
+  stroke: plum;
+  stroke-width: 5px;
+}
+
+.circle-second__text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+
+  fill: white;
+}
+
+.circle-second:hover {
+  cursor: pointer;
+
+  fill: #1bceb1;
+  stroke: azure;
+}
